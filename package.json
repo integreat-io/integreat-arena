@@ -1,6 +1,6 @@
 {
   "name": "integreat-arena",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Arena server for Bull and Bee queues",
   "author": "Kjell-Morten Bratsberg Thorsen <post@kjellmorten.no>",
   "license": "ISC",
