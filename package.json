@@ -1,0 +1,39 @@
+{
+  "name": "integreat-arena",
+  "version": "0.1.0",
+  "description": "Arena server for Bull and Bee queues",
+  "author": "Kjell-Morten Bratsberg Thorsen <post@kjellmorten.no>",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:docker": "docker build -t integreat-io/arena:$npm_package_version .",
+    "build:docker:latest": "docker build -t integreat-io/arena ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/integreat-io/integreat-arena.git"
+  },
+  "bugs": {
+    "url": "https://github.com/integreat-io/integreat-arena/issues"
+  },
+  "homepage": "https://github.com/integreat-io/integreat-arena#readme",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "bull-arena": "^2.6.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
