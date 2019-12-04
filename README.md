@@ -26,6 +26,7 @@ Use the following env vars to configure:
 - `REDIS_HOST`: Host name to Redis server
 - `REDIS_PORT`: Port number to Redis server
 - `REDIS_PASSWORD`: Password to Redis server (or blank)
+- `REDIS_TLS`: Set to `true` to enable TLS (default is `false`)
 
 - `ARENA_QUEUES_JSON`: A JSON of the `queues` array given to Arena. See
   [Arena documentation](https://github.com/bee-queue/arena#prerequisites). Note
